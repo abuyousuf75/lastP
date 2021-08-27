@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?4261deb9776d762801d865f1f46869f7") format("truetype"),
+url("./flaticon.woff?4261deb9776d762801d865f1f46869f7") format("woff"),
+url("./flaticon.woff2?4261deb9776d762801d865f1f46869f7") format("woff2"),
+url("./flaticon.eot?4261deb9776d762801d865f1f46869f7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4261deb9776d762801d865f1f46869f7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-fingerprint:before {
+    content: "\f101";
+}
+.flaticon-bell:before {
+    content: "\f102";
+}
+.flaticon-heart-shape-outline-with-lifeline:before {
+    content: "\f103";
+}
+.flaticon-blood-pressure:before {
+    content: "\f104";
+}
+.flaticon-location:before {
+    content: "\f105";
+}
+.flaticon-camera:before {
+    content: "\f106";
+}

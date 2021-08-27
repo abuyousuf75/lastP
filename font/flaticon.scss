@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?20d7978fcc1f609ee8669ad7aa5c66f4") format("truetype"),
+url("./flaticon.woff?20d7978fcc1f609ee8669ad7aa5c66f4") format("woff"),
+url("./flaticon.woff2?20d7978fcc1f609ee8669ad7aa5c66f4") format("woff2"),
+url("./flaticon.eot?20d7978fcc1f609ee8669ad7aa5c66f4#iefix") format("embedded-opentype"),
+url("./flaticon.svg?20d7978fcc1f609ee8669ad7aa5c66f4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cycling": "\f101",
+    "traveler-with-a-suitcase": "\f102",
+    "walk": "\f103",
+    "stretching-exercises": "\f104",
+    "fitness": "\f105",
+    "exercise-with-dumbbell": "\f106",
+    "man-jumping-rope": "\f107",
+    "man-practicing-exercise": "\f108",
+    "swimming-silhouette": "\f109",
+    "treadmill": "\f10a",
+);
+
+.flaticon-cycling:before {
+    content: map-get($flaticon-map, "cycling");
+}
+.flaticon-traveler-with-a-suitcase:before {
+    content: map-get($flaticon-map, "traveler-with-a-suitcase");
+}
+.flaticon-walk:before {
+    content: map-get($flaticon-map, "walk");
+}
+.flaticon-stretching-exercises:before {
+    content: map-get($flaticon-map, "stretching-exercises");
+}
+.flaticon-fitness:before {
+    content: map-get($flaticon-map, "fitness");
+}
+.flaticon-exercise-with-dumbbell:before {
+    content: map-get($flaticon-map, "exercise-with-dumbbell");
+}
+.flaticon-man-jumping-rope:before {
+    content: map-get($flaticon-map, "man-jumping-rope");
+}
+.flaticon-man-practicing-exercise:before {
+    content: map-get($flaticon-map, "man-practicing-exercise");
+}
+.flaticon-swimming-silhouette:before {
+    content: map-get($flaticon-map, "swimming-silhouette");
+}
+.flaticon-treadmill:before {
+    content: map-get($flaticon-map, "treadmill");
+}

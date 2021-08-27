@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4261deb9776d762801d865f1f46869f7") format("truetype"),
+url("./flaticon.woff?4261deb9776d762801d865f1f46869f7") format("woff"),
+url("./flaticon.woff2?4261deb9776d762801d865f1f46869f7") format("woff2"),
+url("./flaticon.eot?4261deb9776d762801d865f1f46869f7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4261deb9776d762801d865f1f46869f7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "fingerprint": "\f101",
+    "bell": "\f102",
+    "heart-shape-outline-with-lifeline": "\f103",
+    "blood-pressure": "\f104",
+    "location": "\f105",
+    "camera": "\f106",
+);
+
+.flaticon-fingerprint:before {
+    content: map-get($flaticon-map, "fingerprint");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-heart-shape-outline-with-lifeline:before {
+    content: map-get($flaticon-map, "heart-shape-outline-with-lifeline");
+}
+.flaticon-blood-pressure:before {
+    content: map-get($flaticon-map, "blood-pressure");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-camera:before {
+    content: map-get($flaticon-map, "camera");
+}

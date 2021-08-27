@@ -1,0 +1,218 @@
+
+@media (max-width:575.98px){
+    .navbar-toggler i{
+        color:#fff;
+        font-size: 18px;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .nav-item {
+        background: #000;
+        text-align: center;
+        margin: 0px -13px;
+    }
+    .banner-content {
+        padding-top: 100px;
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    ul.banner-iteam-list li p {
+        font-size: 14px;
+    }
+    .banner-content p{
+        font-size: 14px;
+    }
+    #features {
+        padding-top: 400px;
+    }
+    .banner-imaes {
+        padding-top: 80px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .feature-head p {
+        font-size: 16px;
+    }
+    .design-box-main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .background-img-holder{
+        visibility: hidden;
+    }
+    .mode-head h3 {
+        font-size: 24px;
+    }
+    .mode-head p {
+        font-size: 16px;
+    }
+    .common-heading h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .common-heading p {
+        font-size: 16px;
+    }
+    .process-icons {
+        width: 60px;
+    }
+    .life-left-text p {
+        padding: 0px 0px;
+       
+    }
+    #life {
+        padding-top: 300px;
+        padding-bottom: 350px;
+    }
+    .life-left-text p {
+        padding-top: 40px;
+    }
+    .process-text p {
+        padding-bottom: 20px;
+    }
+       
+    .life-left-text {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
+    }
+    #spece {
+        padding-top: 50px;
+    }
+    #spece .common-heading h4 {
+        text-align: center;
+        font-size: 30px!important;
+        font-weight: 600!important;
+    }
+    .common-heading p {
+        text-align: center;
+    }
+    .technical-main {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .technicl-main {
+        text-align: center;
+    }
+    .technica-text p {
+        padding-right: 0px;
+    }
+    #prouduct {
+        padding-top: 60px;
+    }
+    #prouduct .common-heading h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .nArrow {
+        right: 25%;
+    }
+    .pArrow {
+        left: 28%;
+    }
+    #feedback .common-heading h4 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .client-say p {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    .cArrow2 {
+        right: 30%;
+        
+    }
+    .cArrow {
+        left: 35%;
+    }
+    .accordion-header h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .qustion-img {
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .download-img {
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .download-text {
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+    #download {
+        padding-top: 500px;
+        padding-bottom: 400px;
+    }
+    .download-btn a {
+        padding: 8px 10px;
+       
+    }
+    .download-text .common-heading h4 {
+        text-align: center;
+       font-size: 24px;
+    }
+
+    #reach .common-heading h4 {
+        font-size: 26px;
+    }
+    #reach .common-heading p {
+        padding-right: 0px;
+       
+    }
+    textarea {
+        height: 150px !important;
+        width: 100%;
+    }
+    .submit-button {
+        padding-bottom: 50px;
+    }
+    .adress {
+        text-align: center;
+    }
+    .contuct-info-wrap {
+        margin-bottom: 35px;
+        border-bottom: none;
+        border-left: none;
+    }
+    .adress p {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #Caction .common-heading p {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .subscribe {
+        margin-left: -30px;
+        padding: 12px 12px;
+        
+    }
+    .form-control {
+        padding: 12px 12px;
+    }
+    .footer-info {
+        text-align: center;
+    }
+    .footer-info p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .footer-socail {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .footer-info ul li {
+        line-height: 30px;
+    }
+    .footer-info h4 {
+        padding-top: 30px;
+    }
+}
