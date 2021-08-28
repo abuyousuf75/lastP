@@ -1,3 +1,295 @@
+@media(min-width:1200px) and (max-width:1400px){
+    .banner-imaes {
+        margin: 0 auto;
+    }
+    .banner-content {
+        padding-top: 120px;
+    }
+    .box-content p {
+        font-size: 14px;
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .banner-imaes {
+        margin: 0 auto;
+    }
+    .banner-content {
+        padding-top: 120px;
+    }
+    .box-content p {
+        font-size: 14px;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px) {
+    .navbar-toggler i{
+        color:#fff;
+        font-size: 18px;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .nav-item {
+        background: #000;
+        text-align: center;
+        margin: 0px -13px;
+    }
+    .banner-content {
+        padding-top: 100px;
+    }
+    .banner-content h2 {
+        font-size: 42px;
+    }
+    ul.banner-iteam-list li p {
+        font-size: 16px;
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+
+    .banner-imaes {
+        padding-top: 200px;
+        margin: 0 auto;
+    }
+    .feature-head {
+        padding-top: 700px;
+    }
+    .design-box-main {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .background-img-holder{
+        visibility: hidden;
+    }
+    .common-heading h4 {
+        font-size: 30px;
+    }
+    .process-clock {
+        padding-bottom: 40px;
+    }
+    .process-text {
+        margin-bottom: 20px;
+    }
+    #life {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .life-left-text {
+        padding-top: 50px;
+    }
+    .life-left-text {
+        padding-top: 70px;
+    }
+    .technical-main {
+        text-align: center;
+    }
+    .technicl-main {
+        text-align: center;
+    }
+    .technical-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .technica-text p {
+        padding-right: 0px;
+    }
+    .nArrow {
+        right: 37%;
+      
+    }
+    .pArrow {
+        left: 40%;
+    }
+    .cArrow2 {
+        right: 38%;
+    }
+    .cArrow {
+        left: 38%;
+    }
+    .qustion-img {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    #download {
+        padding-top: 600px;
+        padding-bottom: 600px;
+    }
+    .download-img {
+        margin-left: 0px;
+    }
+    .download-text {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+    .submit-button {
+        margin-bottom: 60px;
+    }
+    .adress p {
+       
+        padding-right: 0px;
+    }
+    .contuct-info-wrap {
+        margin-bottom: 30px;
+        border-bottom: none;
+    }
+    #Caction .common-heading p {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .subscribe {
+        padding: 16px 18px;
+        
+    }
+    .footer-info {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-info p {
+        padding-right: 0px;
+    }
+    .footer-socail {
+        margin-bottom: 50px;
+    }
+    .footer-info ul li {
+
+        text-align: center;
+       
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar-toggler i{
+        color:#fff;
+        font-size: 18px;
+    }
+    .navbar-toggler:focus{
+        box-shadow:none ;
+    }
+    .nav-item {
+        background: #000;
+        text-align: center;
+        margin: 0px -13px;
+    }
+    .banner-content {
+        padding-top: 100px;
+    }
+    .banner-content h2 {
+        font-size: 42px;
+    }
+    ul.banner-iteam-list li p {
+        font-size: 16px;
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+
+    .banner-imaes {
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+    .feature-head {
+        padding-top: 500px;
+    }
+    .design-box-main {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .background-img-holder{
+        visibility: hidden;
+    }
+    .common-heading h4 {
+        font-size: 30px;
+    }
+    .process-clock {
+        padding-bottom: 40px;
+    }
+    .process-text {
+        margin-bottom: 20px;
+    }
+    #life {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .life-left-text {
+        padding-top: 50px;
+    }
+    .life-left-text {
+        padding-top: 70px;
+    }
+    .technical-main {
+        text-align: center;
+    }
+    .technicl-main {
+        text-align: center;
+    }
+    .technical-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .technica-text p {
+        padding-right: 0px;
+    }
+    .nArrow {
+        right: 37%;
+      
+    }
+    .pArrow {
+        left: 40%;
+    }
+    .cArrow2 {
+        right: 38%;
+    }
+    .cArrow {
+        left: 38%;
+    }
+    .qustion-img {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    #download {
+        padding-top: 600px;
+        padding-bottom: 400px;
+    }
+    .download-img {
+        margin-left: 0px;
+    }
+    .download-text {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+    .submit-button {
+        margin-bottom: 60px;
+    }
+    .adress p {
+       
+        padding-right: 0px;
+    }
+    .contuct-info-wrap {
+        margin-bottom: 30px;
+        border-bottom: none;
+    }
+    #Caction .common-heading p {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .subscribe {
+        padding: 16px 18px;
+        
+    }
+    .footer-info {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-info p {
+        padding-right: 0px;
+    }
+    .footer-socail {
+        margin-bottom: 50px;
+    }
+    .footer-info ul li {
+
+        text-align: center;
+       
+    }
+}
 
 @media (max-width:575.98px){
     .navbar-toggler i{

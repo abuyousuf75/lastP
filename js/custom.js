@@ -55,9 +55,17 @@ $('.prouduct-slider').slick({
         breakpoint: 768,
         settings: {
           slidesToScroll: 1,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToScroll: 1,
           slidesToShow: 3
         }
       },
+     
     ]
 
   });
